@@ -107,6 +107,6 @@
  @param childTitles 子控制器标题数组
  @return <#return value description#>
  */
-- (instancetype)initWithChildControllers:(NSArray<UIViewController *> *)childControllers childTitles:(NSArray<NSString *> *)childTitles ;
+- (instancetype)initWithChildControllers:(NSArray<UIViewController *> *)childControllers childTitles:(NSArray<RMPageModel *> *)childTitles ;
 
 @end

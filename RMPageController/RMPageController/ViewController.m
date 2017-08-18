@@ -51,7 +51,7 @@
     for (int i = 0; i < titleArray.count; i++ ) {
         RMPageModel *model = [[RMPageModel alloc]init];
         model.title = titleArray[i];
-        model.isShowIndentifImageView = (i < 3) ? YES : NO;
+        model.isShowIndentifImageView = (i < 3) ? YES : NO;  // 是否显示标题上面的标签
         [newTitleArray addObject:model];
     }
     
